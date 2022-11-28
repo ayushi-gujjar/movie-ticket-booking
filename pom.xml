@@ -15,6 +15,9 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		<sonar.organization>ayushi-gujjar</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.projectKey>ayushi-gujjar_movie-ticket-booking-java</sonar.projectKey>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -58,7 +61,6 @@
 			<artifactId>modelmapper</artifactId>
 			<version>2.4.5</version>
 		</dependency>
-
 	</dependencies>
 
 	<build>
